@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DOUGHNUT___Harry_and_big_doughnuts</RootNamespace>
+  </PropertyGroup>
+
+</Project>
