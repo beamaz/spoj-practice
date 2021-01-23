@@ -4,45 +4,42 @@ namespace BFN1___Zabawne_Dodawanie_Piotrusia
 {
     class Program
     {
-        //public string isPalindromic(bool)
-       // {
-
-            //return;
-       // }
-
-        //static void Main(string[] args)
-        //{
-            
-           /* int testCount = int.Parse(Console.ReadLine());
-            for (int i = 0; i < testCount; i++)
+        public static int ReverseStringAndConvertToInt(string number)
+        {
+            char[] charArray = number.ToCharArray();
+            Array.Reverse(charArray);
+            string reverseString = new string(charArray);
+            return int.Parse(reverseString);
+        }
+        public static bool IsPalindromic(string number)
+        {
+            for (int y = 0; y < number.Length / 2; y++)
             {
-                string text = Console.ReadLine();
-
-                if (text.Length == 1)
+                if (number[y] != number[number.Length - y - 1])
                 {
-                    Console.WriteLine(text + " 0");
+                    return false;
                 }
+            }
+            return true;
+        }
+        static void Main(string[] args)
+        {
+            int testCount = int.Parse(Console.ReadLine());
+            for (int t = 0; t < testCount; t++)
+            {
+                int counter = 0;
+                string num = Console.ReadLine();
 
-                if (text.Length == 2)
+                while (!IsPalindromic(num))
                 {
-                    if (text[0] == text[1])
-                    {
-                        Console.WriteLine(text + " 0");
-                    }
-                    else
-                    {
-                        bool isPalindromic = true;
-                        for (int y = 0; y <text.Length/2; y++)
-                        {
-                            if (text[y] != text[text.Length - 1])
-                            {
-                                isPalindromic = false;
-                                break;
-                            }
-                        }
-                    }
-                } */
-            //}
-        //}
+                    int numInt = int.Parse(num);
+                    int reverseNum = ReverseStringAndConvertToInt(num);
+                    int sum = numInt + reverseNum;
+                    num = sum.ToString();
+                    counter++;
+                }
+                Console.WriteLine(num + " " + counter);
+            }
+        }
     }
 }
