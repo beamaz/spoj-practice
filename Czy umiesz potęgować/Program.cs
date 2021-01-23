@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel.Design.Serialization;
 
-namespace Czy_umiesz_potęgować
+namespace CzyUmieszPotegowac
 {
     class Program
     {
@@ -11,7 +10,7 @@ namespace Czy_umiesz_potęgować
             for (int i = 0; i < testCount; i++)
             {
                 var numbers = Console.ReadLine().Split(' ');
-               
+
                 int userBaseOfPower = int.Parse(numbers[0]);
                 int numberOfPower = int.Parse(numbers[1]);
                 int baseOfPower = userBaseOfPower % 10;
@@ -91,9 +90,7 @@ namespace Czy_umiesz_potęgować
                                 break;
                             }
                     }
-
                 }
-
             }
         }
     }

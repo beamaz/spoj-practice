@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieProbne", "PTEST - Zadanie próbne\ZadanieProbne.csproj", "{0F341AAD-70C0-4A08-BCAE-85F4048552DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Life,TheUniverse,AndEverything", "TEST - Life, the Universe, and Everything\Life,TheUniverse,AndEverything.csproj", "{48204100-2238-4CA9-910E-72232933BAE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTheUniverseAndEverything", "TEST - Life, the Universe, and Everything\LifeTheUniverseAndEverything.csproj", "{48204100-2238-4CA9-910E-72232933BAE9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiczbyPierwsze", "PRIME_T - Liczby Pierwsze\LiczbyPierwsze.csproj", "{4EF8203C-AAE6-495E-B599-3E6E9D03B70D}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProsteDodawanie", "RNO_DOD 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolePewnegoKola", "ETI06F1 - Pole pewnego koła\PolePewnegoKola.csproj", "{4F61720F-3384-4746-A244-A324107F737E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadanieProbneVol.2", "PTEST - Zadanie próbne vol.2\ZadanieProbneVol.2.csproj", "{5C87A018-E2FA-4A0B-A0A4-3E02D2F961E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadanieProbneVol2", "PTEST - Zadanie próbne vol.2\ZadanieProbneVol2.csproj", "{5C87A018-E2FA-4A0B-A0A4-3E02D2F961E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tablice", "PP0502B - Tablice\Tablice.csproj", "{E97C7BC4-261C-4E13-BF75-1E67E3591836}"
 EndProject
@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RownanieLiniowe", "JROWLIN 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemCollatza", "PTCLTZ - Problem Collatza\ProblemCollatza.csproj", "{5821A71C-0760-4E55-8BBC-A6B37E02A374}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROL(k)", "PP0602D - ROL (k)\ROL(k).csproj", "{59DF4AB5-2F9C-4295-BD45-A5C2863153A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROL_k", "PP0602D - ROL (k)\ROL_k.csproj", "{59DF4AB5-2F9C-4295-BD45-A5C2863153A0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Urodziny", "Urodziny\Urodziny.csproj", "{4621AC5F-D217-4F94-B4EC-F69103A8C093}"
 EndProject
@@ -109,7 +109,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiekSegmentolka", "WiekSegm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkarbFinder", "SkarbFinder\SkarbFinder.csproj", "{247500EB-B06B-4D39-B03E-0607B2D9389B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stos", "Stos\Stos.csproj", "{637FC89F-7037-4496-A41C-D29E561D117D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stos", "Stos\Stos.csproj", "{637FC89F-7037-4496-A41C-D29E561D117D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
-namespace Połowa
+namespace Polowa
 {
     class Program
     {

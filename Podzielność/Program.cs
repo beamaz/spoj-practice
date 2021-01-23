@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Podzielność
+namespace Podzielnosc
 {
     class Program
     {

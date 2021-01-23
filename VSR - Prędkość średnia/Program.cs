@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VSR___Prędkość_średnia
+namespace VsrPredkoscSrednia
 {
     class Program
     {

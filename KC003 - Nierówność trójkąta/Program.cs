@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace KC003___Nierówność_trójkąta
+namespace NierownoscTrojkata
 {
     class Program
     {
