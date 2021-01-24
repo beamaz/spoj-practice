@@ -6,14 +6,14 @@ namespace WycinanieLiterek
     {
         static void Main(string[] args)
         {
-            string text = Console.ReadLine();
+            var text = Console.ReadLine();
             do
             {
                 var textSplit = text.Split(" ");
-                char funcionalLetter = Convert.ToChar(textSplit[0]);
-                char [] letters = textSplit[1].ToCharArray();
+                var funcionalLetter = Convert.ToChar(textSplit[0]);
+                var letters = textSplit[1].ToCharArray();
 
-                foreach (char letter in letters)
+                foreach (var letter in letters)
                 {
                     if (letter != funcionalLetter)
                     {

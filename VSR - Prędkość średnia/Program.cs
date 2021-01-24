@@ -7,15 +7,15 @@ namespace VsrPredkoscSrednia
         static void Main(string[] args)
         {
 
-            int velocityCount = int.Parse(Console.ReadLine());
-            for (int x = 0; x < velocityCount; x++)
+            var velocityCount = int.Parse(Console.ReadLine());
+            for (var x = 0; x < velocityCount; x++)
             {
 
                 var velocities = Console.ReadLine().Split(' ');
 
-                int velocity1 = int.Parse(velocities[0]);
-                int velocity2 = int.Parse(velocities[1]);
-                int averageVelocity = (2 * velocity1 * velocity2) / (velocity1 + velocity2);
+                var velocity1 = int.Parse(velocities[0]);
+                var velocity2 = int.Parse(velocities[1]);
+                var averageVelocity = (2 * velocity1 * velocity2) / (velocity1 + velocity2);
                 Console.WriteLine(averageVelocity);
             }
 

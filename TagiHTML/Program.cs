@@ -9,13 +9,13 @@ namespace TagiHTML
             string text;
             do
             {
-                string result = "";
-                bool isTag = false;
+                var result = "";
+                var isTag = false;
                 text = Console.ReadLine();
                 if (text == null)
                     break;
 
-                for (int i = 0; i < text.Length; i++)
+                for (var i = 0; i < text.Length; i++)
                 {
                     if (text[i] == '<')
                     {

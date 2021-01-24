@@ -19,7 +19,7 @@ namespace SkarbFinder
 
         static Position Move (Position currentPosition, Directions direction, int stepsCount)
         {
-            Position newPosition = new Position();
+            var newPosition = new Position();
 
             newPosition.x = currentPosition.x;
             newPosition.y = currentPosition.y;
@@ -50,19 +50,19 @@ namespace SkarbFinder
         }
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
-                int movementCount = int.Parse(Console.ReadLine());
-                Position currentPosition = new Position();
+                var movementCount = int.Parse(Console.ReadLine());
+                var currentPosition = new Position();
                 currentPosition.x = 0;
                 currentPosition.y = 0;
-                for (int i = 0; i < movementCount; i++)
+                for (var i = 0; i < movementCount; i++)
                 {
-                    string functionNumbersLoaded = Console.ReadLine();
+                    var functionNumbersLoaded = Console.ReadLine();
                     var functionNumbers = functionNumbersLoaded.Split(" ");
                     var direction = (Directions) int.Parse(functionNumbers[0]);
-                    int stepsCount = int.Parse(functionNumbers[1]);
+                    var stepsCount = int.Parse(functionNumbers[1]);
 
                     currentPosition = Move(currentPosition, direction, stepsCount);
                 }

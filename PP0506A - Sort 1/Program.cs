@@ -18,25 +18,25 @@ namespace Sort1
         }
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
-                int numberOfPoints = int.Parse(Console.ReadLine());
-                Punkt[] tab = new Punkt[numberOfPoints];
-                for (int n = 0; n < numberOfPoints; n++)
+                var numberOfPoints = int.Parse(Console.ReadLine());
+                var tab = new Punkt[numberOfPoints];
+                for (var n = 0; n < numberOfPoints; n++)
                 {
                     var coordinates = Console.ReadLine().Split(" ");
-                    string coordinateName = coordinates[0];
-                    int coordinateX = int.Parse(coordinates[1]);
-                    int coordinateY = int.Parse(coordinates[2]);
+                    var coordinateName = coordinates[0];
+                    var coordinateX = int.Parse(coordinates[1]);
+                    var coordinateY = int.Parse(coordinates[2]);
 
-                    Punkt myPunkt = new Punkt();
+                    var myPunkt = new Punkt();
                     myPunkt.x = coordinateX;
                     myPunkt.y = coordinateY;
                     myPunkt.name = coordinateName;
                     tab[n] = myPunkt;
                 }
-                foreach (Punkt punkt in tab.OrderBy(p => p.GetDistance()))
+                foreach (var punkt in tab.OrderBy(p => p.GetDistance()))
                 {
                     Console.WriteLine(punkt.name + " " + punkt.x + " " + punkt.y);
                 }

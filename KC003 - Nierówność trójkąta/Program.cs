@@ -11,9 +11,9 @@ namespace NierownoscTrojkata
             while ((line = Console.ReadLine())  != null)
             {
                 var splitLine = line.Split(" ");
-                float a = float.Parse(splitLine[0], CultureInfo.InvariantCulture);
-                float b = float.Parse(splitLine[1], CultureInfo.InvariantCulture);
-                float c = float.Parse(splitLine[2], CultureInfo.InvariantCulture);
+                var a = float.Parse(splitLine[0], CultureInfo.InvariantCulture);
+                var b = float.Parse(splitLine[1], CultureInfo.InvariantCulture);
+                var c = float.Parse(splitLine[2], CultureInfo.InvariantCulture);
 
                 if ( a > 0 && b > 0 && c > 0)
                 {

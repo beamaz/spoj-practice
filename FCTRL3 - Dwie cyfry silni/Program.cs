@@ -6,8 +6,8 @@ namespace DwieCyfrySilni
     {
         static int ComputeFactorial(int factorial)
         {
-            int resultFactorial = 1;
-            for (int i = 1; i <= factorial; i++)
+            var resultFactorial = 1;
+            for (var i = 1; i <= factorial; i++)
             {
                 resultFactorial = resultFactorial * i;
             }
@@ -17,21 +17,21 @@ namespace DwieCyfrySilni
 
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
+            var testCount = int.Parse(Console.ReadLine());
           
-            for (int k = 0; k < testCount; k++)
+            for (var k = 0; k < testCount; k++)
             {
-                int factorial = int.Parse(Console.ReadLine());
+                var factorial = int.Parse(Console.ReadLine());
 
                 if (factorial <= 9)
                 {
-                    int resultFactorial = ComputeFactorial(factorial);
+                    var resultFactorial = ComputeFactorial(factorial);
 
-                    string resultFactorialText = resultFactorial.ToString();
-                    int y = resultFactorialText.Length - 1;
+                    var resultFactorialText = resultFactorial.ToString();
+                    var y = resultFactorialText.Length - 1;
                     if (factorial > 3)
                     {
-                        int x = resultFactorialText.Length - 2;
+                        var x = resultFactorialText.Length - 2;
                         Console.WriteLine(resultFactorialText[x] + " " + resultFactorialText[y]);
                     }
                     else

@@ -9,7 +9,7 @@ namespace LifeTheUniverseAndEverything
             int number;
             do
             {
-                string numberText = Console.ReadLine();
+                var numberText = Console.ReadLine();
                 number = int.Parse(numberText);
 
                 if (number == 42)

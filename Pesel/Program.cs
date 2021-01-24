@@ -9,20 +9,20 @@ namespace Pesel
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
-                string pesel = Console.ReadLine();
-                int[] numbers = new int[11];
-                for (int x = 0; x < numbers.Length; x++)
+                var pesel = Console.ReadLine();
+                var numbers = new int[11];
+                for (var x = 0; x < numbers.Length; x++)
                 {
-                    int asciiValue = 48;
+                    var asciiValue = 48;
                     numbers[x] = Convert.ToInt32(pesel[x]) - asciiValue;
                 }
 
-                int newNumber = 0;
-                int sum = 0;
-                for (int i = 0; i < numbers.Length; i++)
+                var newNumber = 0;
+                var sum = 0;
+                for (var i = 0; i < numbers.Length; i++)
                 {
                     if (i == 0 || i == 4 || i == 8 || i == 10)
                     {

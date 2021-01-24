@@ -6,11 +6,11 @@ namespace SUMA
     {
         static void Main(string[] args)
         {
-            int a = 0;
+            var a = 0;
             string line;
             while ((line = Console.ReadLine()) != null)
             {
-                int b = int.Parse(line);
+                var b = int.Parse(line);
                 a = a + b;
                 Console.WriteLine(a);
             }

@@ -7,9 +7,9 @@ namespace Test3
         static void Main(string[] args)
         {
             string line;
-            int countOf42 = 0;
-            bool prev42 = false;
-            bool isFirst = true;
+            var countOf42 = 0;
+            var prev42 = false;
+            var isFirst = true;
 
             while ((line = Console.ReadLine()) != null)
             {

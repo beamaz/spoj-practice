@@ -6,13 +6,13 @@ namespace Polowa
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int i = 0; i < testCount; i++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var i = 0; i < testCount; i++)
             {
-                string array = Console.ReadLine();
-                int halfArray = array.Length / 2;
+                var array = Console.ReadLine();
+                var halfArray = array.Length / 2;
                 
-                for (int x = 0; x < halfArray; x++)
+                for (var x = 0; x < halfArray; x++)
                 {
                     Console.Write(array[x]);
                 }

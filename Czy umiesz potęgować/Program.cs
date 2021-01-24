@@ -21,8 +21,8 @@ namespace CzyUmieszPotegowac
                 }
                 else if (numberOfPower == 1)
                 {
-                    string baseOfPowerText = baseOfPower.ToString();
-                    int a = baseOfPowerText.Length - 1;
+                    var baseOfPowerText = baseOfPower.ToString();
+                    var a = baseOfPowerText.Length - 1;
                     Console.WriteLine(baseOfPowerText[a]);
                 }
                 else
@@ -34,21 +34,21 @@ namespace CzyUmieszPotegowac
                             break;
                         case 2:
                             {
-                                int a = numberOfPower % 4;
+                                var a = numberOfPower % 4;
                                 int[] valuesForTwo = { 6, 2, 4, 8 };
                                 Console.WriteLine(valuesForTwo[a]);
                                 break;
                             }
                         case 3:
                             {
-                                int a = numberOfPower % 4;
+                                var a = numberOfPower % 4;
                                 int[] valuesForThree = { 1, 3, 9, 7, };
                                 Console.WriteLine(valuesForThree[a]);
                                 break;
                             }
                         case 4:
                             {
-                                int a = numberOfPower % 2;
+                                var a = numberOfPower % 2;
                                 int[] valuesForThree = { 6, 4 };
                                 Console.WriteLine(valuesForThree[a]);
                                 break;
@@ -65,21 +65,21 @@ namespace CzyUmieszPotegowac
                             }
                         case 7:
                             {
-                                int a = numberOfPower % 4;
+                                var a = numberOfPower % 4;
                                 int[] valuesForThree = { 1, 7, 9, 3 };
                                 Console.WriteLine(valuesForThree[a]);
                                 break;
                             }
                         case 8:
                             {
-                                int a = numberOfPower % 4;
+                                var a = numberOfPower % 4;
                                 int[] valuesForThree = { 6, 8, 4, 2 };
                                 Console.WriteLine(valuesForThree[a]);
                                 break;
                             }
                         case 9:
                             {
-                                int a = numberOfPower % 2;
+                                var a = numberOfPower % 2;
                                 int[] valuesForThree = { 1, 9 };
                                 Console.WriteLine(valuesForThree[a]);
                                 break;

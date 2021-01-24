@@ -6,10 +6,10 @@ namespace NowaDzialka
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int i = 0; testCount > i; i ++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var i = 0; testCount > i; i ++)
             {
-                int a = int.Parse(Console.ReadLine());
+                var a = int.Parse(Console.ReadLine());
                 Console.WriteLine(a * a);
             }
         }

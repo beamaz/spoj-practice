@@ -27,15 +27,15 @@ namespace Przedszkolanka
         }
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int i = 0; i < testCount; i++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var i = 0; i < testCount; i++)
             {
                 var childrenGroup = Console.ReadLine().Split(' ');
-                int a = int.Parse(childrenGroup[0]);
-                int b = int.Parse(childrenGroup[1]);
-                int resultNwd = nwd(a, b);
-                int d = a * b;
-                int sugarResult = d / resultNwd;
+                var a = int.Parse(childrenGroup[0]);
+                var b = int.Parse(childrenGroup[1]);
+                var resultNwd = nwd(a, b);
+                var d = a * b;
+                var sugarResult = d / resultNwd;
                 Console.WriteLine(sugarResult);
 
             }

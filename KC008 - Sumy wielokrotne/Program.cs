@@ -7,7 +7,7 @@ namespace SumyWielokrotne
         static void Main(string[] args)
         {
             long sum = 0;
-            string line = Console.ReadLine();
+            var line = Console.ReadLine();
             while (line != null) 
             {
                 long result = 0;

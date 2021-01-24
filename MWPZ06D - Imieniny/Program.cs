@@ -6,17 +6,17 @@ namespace Imieniny
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
+            var testCount = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < testCount; i++)
+            for (var i = 0; i < testCount; i++)
             {
                 var funcionalNumbers = Console.ReadLine().Split(" ");
-                int studentsCount = int.Parse(funcionalNumbers[0]) - 1;
-                int candiesCount = int.Parse(funcionalNumbers[1]);
+                var studentsCount = int.Parse(funcionalNumbers[0]) - 1;
+                var candiesCount = int.Parse(funcionalNumbers[1]);
 
                 if (studentsCount != 0)
                 {
-                    int candiesForJasio = candiesCount % studentsCount;
+                    var candiesForJasio = candiesCount % studentsCount;
                     if (candiesForJasio == 0)
                     {
                         Console.WriteLine("NIE");

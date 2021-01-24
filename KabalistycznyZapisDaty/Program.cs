@@ -58,11 +58,11 @@ namespace KabalistycznyZapisDaty
         }
         static void Main(string[] args)
         {
-            string word = Console.ReadLine();
-            string majorsLetters = word.ToUpper();
+            var word = Console.ReadLine();
+            var majorsLetters = word.ToUpper();
      
-            int date = 0;
-            foreach (char letterInWord in majorsLetters) 
+            var date = 0;
+            foreach (var letterInWord in majorsLetters) 
             {
                 date += ConvertCharToKabbalahNumber(letterInWord);
             }

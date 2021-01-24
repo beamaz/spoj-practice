@@ -6,17 +6,17 @@ namespace WspolinowoscPunktow
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
-                string tableOfPoints = Console.ReadLine();
+                var tableOfPoints = Console.ReadLine();
                 var points = tableOfPoints.Split("\t");
-                int x1 = int.Parse(points[0]);
-                int y1 = int.Parse(points[1]);
-                int x2 = int.Parse(points[2]);
-                int y2 = int.Parse(points[3]);
-                int x3 = int.Parse(points[4]);
-                int y3 = int.Parse(points[5]);
+                var x1 = int.Parse(points[0]);
+                var y1 = int.Parse(points[1]);
+                var x2 = int.Parse(points[2]);
+                var y2 = int.Parse(points[3]);
+                var x3 = int.Parse(points[4]);
+                var y3 = int.Parse(points[5]);
         
                 if (x1 == x2 && x2 == x3)
                 {
@@ -36,8 +36,8 @@ namespace WspolinowoscPunktow
                 }
                 else
                 {
-                    double a = (double)(y1 - y2) / (x1 - x2);
-                    double b = y1 - (a * x1);
+                    var a = (double)(y1 - y2) / (x1 - x2);
+                    var b = y1 - (a * x1);
                     var result = a * x3 + b - y3;
 
                     if (result == 0)

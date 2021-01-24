@@ -11,9 +11,9 @@ namespace Kalkulator
             {
 
                 var numbers = line.Split(' ');
-                string mathematicalOperator = numbers[0];
-                int firstNumber = int.Parse(numbers[1]);
-                int secondNumber = int.Parse(numbers[2]);
+                var mathematicalOperator = numbers[0];
+                var firstNumber = int.Parse(numbers[1]);
+                var secondNumber = int.Parse(numbers[2]);
 
                 switch (mathematicalOperator)
                 {

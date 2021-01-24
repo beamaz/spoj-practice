@@ -6,24 +6,24 @@ namespace ProblemCollatza
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
-                int s = int.Parse(Console.ReadLine());
-                int numberN = 0;
+                var s = int.Parse(Console.ReadLine());
+                var numberN = 0;
 
                 do
                 {
                     if (s % 2 == 0)
                     {
-                        int x = s / 2;
+                        var x = s / 2;
                         s = x;
                         numberN++;
                     }
 
                     else
                     {
-                        int x = (3 * s) + 1;
+                        var x = (3 * s) + 1;
                         s = x;
                         numberN++;
                     }

@@ -6,11 +6,11 @@ namespace StringMerge
     {
         public static string StringMerge(string firstWord, string secondWord)
         {
-            string finalWord = "";
+            var finalWord = "";
             var limit = Math.Min(firstWord.Length, secondWord.Length);
-            for (int x = 0; x < limit; x++)
+            for (var x = 0; x < limit; x++)
             {
-                string newWord = firstWord[x] + "" + secondWord[x];
+                var newWord = firstWord[x] + "" + secondWord[x];
                 finalWord += "" + newWord;
             }
             return finalWord;
@@ -18,15 +18,15 @@ namespace StringMerge
 
         static void Main(string[] args)
         {
-            int testNumber = int.Parse(Console.ReadLine());
-            for (int i = 0; i < testNumber; i++)
+            var testNumber = int.Parse(Console.ReadLine());
+            for (var i = 0; i < testNumber; i++)
             {
-                string text = Console.ReadLine();
+                var text = Console.ReadLine();
                 var words = text.Split(" ");
                 var firstWord = words[0];
                 var secondWord = words[1];
 
-                string myResult = StringMerge(firstWord, secondWord);
+                var myResult = StringMerge(firstWord, secondWord);
                 Console.WriteLine(myResult);
             }
         }

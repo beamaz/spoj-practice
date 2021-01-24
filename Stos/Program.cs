@@ -9,9 +9,9 @@ namespace Stos
             const int stackLength = 10;
             const string success = ":)";
             const string fail = ":(";
-            string operationText = Console.ReadLine();
-            int[] numbers = new int[stackLength];
-            int currentPosition = 0;
+            var operationText = Console.ReadLine();
+            var numbers = new int[stackLength];
+            var currentPosition = 0;
             do
             {
                 if (operationText == "+")

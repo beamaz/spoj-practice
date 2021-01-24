@@ -6,17 +6,17 @@ namespace Spacje
     {
         static void Main(string[] args)
         {
-            string text = Console.ReadLine();
+            var text = Console.ReadLine();
             do
             {
                 if (text != "")
                 {
                     var words = text.Split(" ");
-                    string allTextInOne = "";
+                    var allTextInOne = "";
 
-                    for (int i = 0; i < words.Length; i++)
+                    for (var i = 0; i < words.Length; i++)
                     {
-                        string word = words[i];
+                        var word = words[i];
 
                         if (word != "")
                         {

@@ -6,13 +6,13 @@ namespace Urodziny
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int t = 0; t < testCount; t++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var t = 0; t < testCount; t++)
             {
                 var code = Console.ReadLine().Split(' ');
-                for (int x = 0; x < code.Length; x++)
+                for (var x = 0; x < code.Length; x++)
                 {
-                    int secretNumber = int.Parse(code[x]);
+                    var secretNumber = int.Parse(code[x]);
                     if (secretNumber == 1)
                     {
                         Console.Write("A");
