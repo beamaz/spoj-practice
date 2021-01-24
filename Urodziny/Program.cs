@@ -61,11 +61,8 @@ namespace Urodziny
                     {
                         Console.Write(" ");
                     }
-
                 }
             }
-
-
         }
     }
 }

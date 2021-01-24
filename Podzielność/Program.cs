@@ -14,7 +14,7 @@ namespace Podzielnosc
                 var x = int.Parse(numbers[1]);
                 var y = int.Parse(numbers[2]);
 
-                for ( var a = 2; a < n; a++)
+                for (var a = 2; a < n; a++)
                 {
                     if (a % x == 0 && a % y != 0)
                     {

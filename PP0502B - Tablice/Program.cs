@@ -20,9 +20,7 @@ namespace Tablice
                 {
                     numberList.Add(int.Parse(numbers[i]));
                 }
-
                 numberList.Reverse();
-
                 foreach (var x in numberList)
                 {
                     Console.Write(x + " ");

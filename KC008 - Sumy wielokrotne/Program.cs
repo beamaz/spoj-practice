@@ -8,7 +8,7 @@ namespace SumyWielokrotne
         {
             long sum = 0;
             var line = Console.ReadLine();
-            while (line != null) 
+            while (line != null)
             {
                 long result = 0;
                 var numbers = line.Split(" ");

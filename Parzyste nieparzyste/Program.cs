@@ -11,16 +11,16 @@ namespace ParzysteNieparzyste
             {
                 var numbers = Console.ReadLine().Split(" ");
                 var n = int.Parse(numbers[0]);
-               
-                    for (var a = 2; a < numbers.Length; a+=2)
-                    {
-                        Console.Write(numbers[a] + " ");
-                    }
-                    for (var b = 1; b < numbers.Length; b+=2)
-                    {
-                        Console.Write(numbers[b] + " ");
-                    }
-               
+
+                for (var a = 2; a < numbers.Length; a += 2)
+                {
+                    Console.Write(numbers[a] + " ");
+                }
+                for (var b = 1; b < numbers.Length; b += 2)
+                {
+                    Console.Write(numbers[b] + " ");
+                }
+
                 Console.WriteLine();
             }
         }

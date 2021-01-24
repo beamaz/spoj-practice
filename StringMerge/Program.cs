@@ -15,7 +15,6 @@ namespace StringMerge
             }
             return finalWord;
         }
-
         static void Main(string[] args)
         {
             var testNumber = int.Parse(Console.ReadLine());

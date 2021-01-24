@@ -37,7 +37,6 @@ namespace Przedszkolanka
                 var d = a * b;
                 var sugarResult = d / resultNwd;
                 Console.WriteLine(sugarResult);
-
             }
         }
     }

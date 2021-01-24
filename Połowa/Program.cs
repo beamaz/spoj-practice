@@ -11,7 +11,7 @@ namespace Polowa
             {
                 var array = Console.ReadLine();
                 var halfArray = array.Length / 2;
-                
+
                 for (var x = 0; x < halfArray; x++)
                 {
                     Console.Write(array[x]);

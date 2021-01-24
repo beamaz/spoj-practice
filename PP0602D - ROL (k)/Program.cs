@@ -6,7 +6,7 @@ namespace RolK
     {
         static void Main(string[] args)
         {
-            var funcionalNumbers= Console.ReadLine().Split(" ");
+            var funcionalNumbers = Console.ReadLine().Split(" ");
             var digitsNumber = int.Parse(funcionalNumbers[0]);
             var shiftNumber = int.Parse(funcionalNumbers[1]);
             var numbers = Console.ReadLine().Split(" ");

@@ -13,7 +13,7 @@ namespace TransponowanieMacierzy
 
             for (var row = 0; row < linesNumbers; row++)
             {
-               var numbers = Console.ReadLine().Split(" "); 
+                var numbers = Console.ReadLine().Split(" ");
                 for (var col = 0; col < columnsNumber; col++)
                 {
                     table[row, col] = int.Parse(numbers[col]);

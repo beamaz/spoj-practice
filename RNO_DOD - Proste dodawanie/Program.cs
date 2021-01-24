@@ -16,7 +16,6 @@ namespace ProsteDodawanie
                 {
                     var number = int.Parse(numbers[y]);
                     sum += number;
-
                 }
                 Console.WriteLine(sum);
             }

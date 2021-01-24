@@ -17,7 +17,7 @@ namespace WspolinowoscPunktow
                 var y2 = int.Parse(points[3]);
                 var x3 = int.Parse(points[4]);
                 var y3 = int.Parse(points[5]);
-        
+
                 if (x1 == x2 && x2 == x3)
                 {
                     Console.WriteLine("TAK");

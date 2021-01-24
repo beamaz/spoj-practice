@@ -44,7 +44,7 @@ namespace Pesel
                 }
                 if (sum > 0)
                 {
-                    if ( sum % 10 == 0)
+                    if (sum % 10 == 0)
                     {
                         Console.WriteLine("D");
                     }

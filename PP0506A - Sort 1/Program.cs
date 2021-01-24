@@ -5,24 +5,13 @@ namespace Sort1
 {
     class Program
     {
-        public class Punkt
-        {
-            public int x;
-            public int y;
-            public string name;
-
-            public double GetDistance()
-            {
-                return Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y,2));
-            }
-        }
         static void Main(string[] args)
         {
             var testCount = int.Parse(Console.ReadLine());
             for (var t = 0; t < testCount; t++)
             {
                 var numberOfPoints = int.Parse(Console.ReadLine());
-                var tab = new Punkt[numberOfPoints];
+                var tab = new Point[numberOfPoints];
                 for (var n = 0; n < numberOfPoints; n++)
                 {
                     var coordinates = Console.ReadLine().Split(" ");
@@ -30,15 +19,15 @@ namespace Sort1
                     var coordinateX = int.Parse(coordinates[1]);
                     var coordinateY = int.Parse(coordinates[2]);
 
-                    var myPunkt = new Punkt();
-                    myPunkt.x = coordinateX;
-                    myPunkt.y = coordinateY;
-                    myPunkt.name = coordinateName;
+                    var myPunkt = new Point();
+                    myPunkt.X = coordinateX;
+                    myPunkt.Y = coordinateY;
+                    myPunkt.Name = coordinateName;
                     tab[n] = myPunkt;
                 }
                 foreach (var punkt in tab.OrderBy(p => p.GetDistance()))
                 {
-                    Console.WriteLine(punkt.name + " " + punkt.x + " " + punkt.y);
+                    Console.WriteLine(punkt.Name + " " + punkt.X + " " + punkt.Y);
                 }
                 if (t < testCount - 1)
                 {

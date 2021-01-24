@@ -13,7 +13,6 @@ namespace Test3
 
             while ((line = Console.ReadLine()) != null)
             {
-
                 if (line != "42")
                 {
                     Console.WriteLine(line);
@@ -21,13 +20,12 @@ namespace Test3
                 }
                 else
                 {
-                    if (prev42 == false && isFirst == false) 
+                    if (prev42 == false && isFirst == false)
                     {
-                            countOf42++;
+                        countOf42++;
                     }
                     prev42 = true;
                     Console.WriteLine(line);
-
                 }
                 if (countOf42 == 3)
                 {
