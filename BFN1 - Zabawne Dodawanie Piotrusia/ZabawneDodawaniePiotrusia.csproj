@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>BFN1___Zabawne_Dodawanie_Piotrusia</RootNamespace>
+    <RootNamespace>ZabawneDodawaniePiotrusia</RootNamespace>
   </PropertyGroup>
 
 </Project>

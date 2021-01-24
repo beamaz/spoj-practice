@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
 
-namespace PP0501A___NWD
+namespace NWD
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PRIME_T___Liczby_Pierwsze
+namespace LiczbyPierwsze
 {
     class Program
     {

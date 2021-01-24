@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace PP0506A___Sort_1
+namespace Sort1
 {
     class Program
     {

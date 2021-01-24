@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TEST___Life__the_Universe__and_Everything
+namespace LifeTheUniverseAndEverything
 {
     class Program
     {

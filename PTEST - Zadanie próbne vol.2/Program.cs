@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PTEST___Zadanie_próbne_vol._2
+namespace ZadanieProbne2
 {
     class Program
     {

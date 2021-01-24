@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MWPZ06D___Imieniny
+namespace Imieniny
 {
     class Program
     {

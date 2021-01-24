@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.ComponentModel;
 
-namespace PP0502B___Tablice
+namespace Tablice
 {
     class Program
     {
@@ -30,7 +28,6 @@ namespace PP0502B___Tablice
                     Console.Write(x + " ");
                 }
             }
-
         }
     }
 }

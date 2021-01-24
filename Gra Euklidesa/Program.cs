@@ -31,7 +31,7 @@ namespace Gra_Euklidesa
                     }
                 } while (a != b);
 
-            Console.WriteLine( a + b );
+                Console.WriteLine( a + b );
             }
         }
     }

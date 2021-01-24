@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Globalization;
 
-namespace PP0602D___ROL__k_
+namespace RolK
 {
     class Program
     {
@@ -17,16 +16,6 @@ namespace PP0602D___ROL__k_
                 var shiftedIndex = (i + shiftNumber) % digitsNumber;
                 Console.Write(numbers[shiftedIndex]);
             }
-            
-            //for (int i = shiftNumber; i < digitsNumber; ++i)
-            //{
-            //    Console.Write(numbers[i] + " ");
-            //}
-
-            //for (int x = 0; x < shiftNumber; x++)
-            //{
-            //    Console.Write(numbers[x] + " ");
-            //}
         }
     }
 }

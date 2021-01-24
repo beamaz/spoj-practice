@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace JROWLIN___Równanie_liniowe
+namespace RownanieLiniowe
 {
     class Program
     {

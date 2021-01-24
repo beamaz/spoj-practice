@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace ROWNANIE___Równanie_kwadratowe
+namespace RownanieKwadratowe
 {
     class Program
     {

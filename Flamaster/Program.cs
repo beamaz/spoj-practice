@@ -18,6 +18,7 @@ namespace Flamaster
                         repeatCount += 1;
                         x += 1;
                     }
+
                     if (repeatCount == 1)
                     {
                         Console.Write(letters[x]);

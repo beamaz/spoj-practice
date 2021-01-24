@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DOUGHNUT___Harry_and_big_doughnuts
+namespace HarryAndBigDoughnuts
 {
     class Program
     {

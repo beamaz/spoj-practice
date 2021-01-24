@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ETI06F1___Pole_pewnego_koła</RootNamespace>
+    <RootNamespace>PolePewnegoKola</RootNamespace>
   </PropertyGroup>
 
 </Project>

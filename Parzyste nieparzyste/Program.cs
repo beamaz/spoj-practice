@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Parzyste_nieparzyste
+namespace ParzysteNieparzyste
 {
     class Program
     {

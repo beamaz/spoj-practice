@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ETI06F1___Pole_pewnego_koła
+namespace PolePewnegoKola
 {
     class Program
     {

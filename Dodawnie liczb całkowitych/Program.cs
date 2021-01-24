@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dodawnie_liczb_całkowitych
+namespace DodawanieLiczbCalkowitych
 {
     class Program
     {

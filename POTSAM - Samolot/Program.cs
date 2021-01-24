@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace POTSAM___Samolot
+namespace Samolot
 {
     class Program
     {

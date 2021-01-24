@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nowa_działka
+namespace NowaDzialka
 {
     class Program
     {

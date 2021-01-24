@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PP0601A2___Test_3
+namespace Test3
 {
     class Program
     {

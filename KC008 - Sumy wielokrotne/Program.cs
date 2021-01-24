@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KC008___Sumy_wielokrotne
+namespace SumyWielokrotne
 {
     class Program
     {
@@ -12,9 +12,9 @@ namespace KC008___Sumy_wielokrotne
             {
                 long result = 0;
                 var numbers = line.Split(" ");
-                for ( int i = 0; i < numbers.Length; i++)
+                foreach (var t in numbers)
                 {
-                    result = Convert.ToInt64(numbers[i]) + result;
+                    result = Convert.ToInt64(t) + result;
                 }
                 Console.WriteLine(result);
                 line = Console.ReadLine();

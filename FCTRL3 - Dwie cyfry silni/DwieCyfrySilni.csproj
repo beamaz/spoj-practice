@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>FCTRL3___Dwie_cyfry_silni</RootNamespace>
+    <RootNamespace>DwieCyfrySilni</RootNamespace>
   </PropertyGroup>
 
 </Project>

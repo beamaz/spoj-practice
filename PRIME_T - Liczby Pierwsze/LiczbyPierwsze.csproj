@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>PRIME_T___Liczby_Pierwsze</RootNamespace>
+    <RootNamespace>LiczbyPierwsze</RootNamespace>
   </PropertyGroup>
 
 </Project>

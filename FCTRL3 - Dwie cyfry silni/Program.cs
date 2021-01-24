@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FCTRL3___Dwie_cyfry_silni
+namespace DwieCyfrySilni
 {
     class Program
     {
@@ -29,7 +29,7 @@ namespace FCTRL3___Dwie_cyfry_silni
 
                     string resultFactorialText = resultFactorial.ToString();
                     int y = resultFactorialText.Length - 1;
-                    if (factorial <= 9 && factorial > 3)
+                    if (factorial > 3)
                     {
                         int x = resultFactorialText.Length - 2;
                         Console.WriteLine(resultFactorialText[x] + " " + resultFactorialText[y]);

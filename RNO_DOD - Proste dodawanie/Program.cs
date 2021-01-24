@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 
-namespace RNO_DOD___Proste_dodawanie
+namespace ProsteDodawanie
 {
     class Program
     {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>TRN___Transponowanie_macierzy</RootNamespace>
+    <RootNamespace>TransponowanieMacierzy</RootNamespace>
   </PropertyGroup>
 
 </Project>

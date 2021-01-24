@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>KC008___Sumy_wielokrotne</RootNamespace>
+    <RootNamespace>SumyWielokrotne</RootNamespace>
   </PropertyGroup>
 
 </Project>

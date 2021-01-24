@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KC004___Zliczanie_wystąpień
+namespace ZliczanieWystąpien
 {
     class Program
     {

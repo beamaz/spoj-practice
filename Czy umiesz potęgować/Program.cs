@@ -6,14 +6,14 @@ namespace CzyUmieszPotegowac
     {
         static void Main(string[] args)
         {
-            int testCount = int.Parse(Console.ReadLine());
-            for (int i = 0; i < testCount; i++)
+            var testCount = int.Parse(Console.ReadLine());
+            for (var i = 0; i < testCount; i++)
             {
                 var numbers = Console.ReadLine().Split(' ');
 
-                int userBaseOfPower = int.Parse(numbers[0]);
-                int numberOfPower = int.Parse(numbers[1]);
-                int baseOfPower = userBaseOfPower % 10;
+                var userBaseOfPower = int.Parse(numbers[0]);
+                var numberOfPower = int.Parse(numbers[1]);
+                var baseOfPower = userBaseOfPower % 10;
 
                 if (numberOfPower == 0)
                 {

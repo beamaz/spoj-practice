@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>JROWLIN___Równanie_liniowe</RootNamespace>
+    <RootNamespace>RownanieLiniowe</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BFN1___Zabawne_Dodawanie_Piotrusia
+namespace ZabawneDodawaniePiotrusia
 {
     class Program
     {

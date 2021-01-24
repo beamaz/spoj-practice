@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TRN___Transponowanie_macierzy
+namespace TransponowanieMacierzy
 {
     class Program
     {

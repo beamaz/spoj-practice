@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PTCLTZ___Problem_Collatza
+namespace ProblemCollatza
 {
     class Program
     {
