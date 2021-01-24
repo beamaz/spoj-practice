@@ -13,12 +13,10 @@ namespace DwieCyfrySilni
             }
             return resultFactorial;
         }
-
-
         static void Main(string[] args)
         {
             var testCount = int.Parse(Console.ReadLine());
-          
+
             for (var k = 0; k < testCount; k++)
             {
                 var factorial = int.Parse(Console.ReadLine());
@@ -44,7 +42,6 @@ namespace DwieCyfrySilni
                     Console.WriteLine("0 0");
                 }
             }
-
         }
     }
 }

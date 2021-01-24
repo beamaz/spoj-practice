@@ -7,7 +7,7 @@ namespace Gra_Euklidesa
         static void Main(string[] args)
         {
             var testCount = int.Parse(Console.ReadLine());
-            for ( var t = 0; t < testCount; t ++)
+            for (var t = 0; t < testCount; t++)
             {
                 var coins = Console.ReadLine().Split(" ");
                 var a = int.Parse(coins[0]);
@@ -31,7 +31,7 @@ namespace Gra_Euklidesa
                     }
                 } while (a != b);
 
-                Console.WriteLine( a + b );
+                Console.WriteLine(a + b);
             }
         }
     }

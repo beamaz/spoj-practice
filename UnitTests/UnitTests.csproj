@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BFN1 - Zabawne Dodawanie Piotrusia\ZabawneDodawaniePiotrusia.csproj" />
     <ProjectReference Include="..\KabalistycznyZapisDaty\KabalistycznyZapisDaty.csproj" />
+    <ProjectReference Include="..\PP0501A - NWD\NWD.csproj" />
   </ItemGroup>
 
 </Project>

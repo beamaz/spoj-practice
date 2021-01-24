@@ -9,7 +9,6 @@ namespace Kalkulator
             string line;
             while ((line = Console.ReadLine()) != null)
             {
-
                 var numbers = line.Split(' ');
                 var mathematicalOperator = numbers[0];
                 var firstNumber = int.Parse(numbers[1]);

@@ -18,7 +18,7 @@ namespace LiczbyPierwsze
                 {
                     Console.WriteLine("NIE");
                 }
-                var primeNumberSqrt = (int) Math.Sqrt(primeNumber) + 1;
+                var primeNumberSqrt = (int)Math.Sqrt(primeNumber) + 1;
                 for (var y = 2; y < primeNumberSqrt; y++)
                 {
 
@@ -34,7 +34,6 @@ namespace LiczbyPierwsze
                     }
                 }
             }
-
         }
     }
 }

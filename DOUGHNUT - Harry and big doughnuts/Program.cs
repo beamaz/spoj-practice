@@ -7,7 +7,7 @@ namespace HarryAndBigDoughnuts
         static void Main(string[] args)
         {
             var testCount = int.Parse(Console.ReadLine());
-            for (var t=0; t < testCount; t++)
+            for (var t = 0; t < testCount; t++)
             {
                 var funcionalNumbers = Console.ReadLine().Split(" ");
                 var cats = int.Parse(funcionalNumbers[0]);
