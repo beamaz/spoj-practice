@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BFN1 - Zabawne Dodawanie Piotrusia\ZabawneDodawaniePiotrusia.csproj" />
+    <ProjectReference Include="..\KabalistycznyZapisDaty\KabalistycznyZapisDaty.csproj" />
   </ItemGroup>
 
 </Project>
