@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkarbFinder", "SkarbFinder\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stos", "Stos\Stos.csproj", "{637FC89F-7037-4496-A41C-D29E561D117D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{B9131A30-B801-45E1-AB3B-655D5A3D83CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{637FC89F-7037-4496-A41C-D29E561D117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637FC89F-7037-4496-A41C-D29E561D117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637FC89F-7037-4496-A41C-D29E561D117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9131A30-B801-45E1-AB3B-655D5A3D83CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9131A30-B801-45E1-AB3B-655D5A3D83CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9131A30-B801-45E1-AB3B-655D5A3D83CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9131A30-B801-45E1-AB3B-655D5A3D83CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
